@@ -1,0 +1,6 @@
+
+				CS 565 In-class Assignment 0
+
+1) Signed up for the pdx-cs.slack.com and also joined the channel #cs465-565-fall 19.
+2) Installed Git and signed up for the GitHub account and created the repositories.
+3) Downloaded the VS Code editor
