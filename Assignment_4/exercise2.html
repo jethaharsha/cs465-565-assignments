@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exercise 2</title>
+    <script>
+        function reverse_number(num)
+        {
+            var reverse=0;
+            while(num !=0) 
+            {
+            var n= num%10;
+            reverse= (reverse*10)+n;
+            num=parseInt(num/10);
+            }
+            return reverse;
+        }
+        console.log(reverse_number(231756));
+    
+    </script>
+</head>
+<body>
+    check the solution on console.
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exercise 4</title>
+</head>
+<body>
+    <div id="w"></div>
+    <div id="h"></div>
+
+<script>
+
+window.onload=function ()
+{
+var w = document.documentElement.clientWidth;
+var h = document.documentElement.clientHeight;
+
+document.getElementById('w').innerHTML = "Width: " + w;
+document.getElementById('h').innerHTML= "Height: " + h ;
+}
+window.onresize=function()
+{
+var w = document.documentElement.clientWidth;
+var h = document.documentElement.clientHeight;
+
+document.getElementById('w').innerHTML = "Width: " + w;
+document.getElementById('h').innerHTML= "Height: " + h ;
+}
+</script>
+</body>
+</html>
