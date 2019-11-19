@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exercise 4</title>
+    <style>
+        .grid-container
+        {
+            display: grid;
+            grid-gap: 5px;
+            justify-content: center;
+            padding: 10px;
+            grid-template-columns: 225px 500px;
+            grid-template-rows: 50px 50px 50px 50px;
+        }
+        .grid-container > div
+        {
+            background-color: #444;
+            border-radius: 6px;
+            padding-left: 10px;
+            padding-right: 5px;
+            padding-top: 10px;
+            padding-bottom: 40px;
+            color: white;
+        }
+        .grid1
+        {
+            grid-column: 1 / span 1;
+            grid-row: 1;
+        }
+        .grid7
+        {
+            grid-row: 4;
+            grid-column: 1/span 2;
+        }
+    </style>
+
+</head>
+<body>
+        <div class="grid-container">
+           <div class="grid1">One</div>
+           <div class="grid2">Two</div>
+           <div class="grid3">Three</div>
+           <div class="grid4">Four</div>
+           <div class="grid5">Five</div>
+           <div class="grid6">Six</div>
+           <div class="grid7">Seven</div>
+        </div>
+        </div>
+</body>
+</html>
